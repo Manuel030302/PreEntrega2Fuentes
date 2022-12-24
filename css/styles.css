@@ -240,20 +240,121 @@ fieldset{
 /* ///////////////////////////////////////////////////////////////////////////////////// */
 
 /* ///////////////main pages styles///////////////////////////////////////////////////// */
+.mainbackgrhidalgo{
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-dark.png");
+    padding: 20px 0px;
+}
 .containermainpgs{
-    background-color: darkgreen;
+    border: solid 3px black;
     border-radius: 10px;
     margin: 20px 15px;
     padding: 20px;
 }
 .containermainpgs h2{
     color: rgb(235, 53, 90);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darkgreen;
 }
+.h5p{
+    color: white;
+    text-align: justify;
+}
+.containermainpgs article{
+    background-color: #0af6b388;
+    border: solid 3px black;
+    border-radius: 10px;
+    margin: 5px 0px;
+    padding: 10px;
+}
+h3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+h3 button{
+    display: flex;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: red;
+    background-color: white;
+    grid-column: 5/6;
+}
+.containermainpgs h4{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.gridcontainerinterarticle{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    background-color: crimson;
+    border-radius: 10px;
+    padding: 5px 0px;
+    width: auto;
+    color: white;
+}
+.gridcontainerinterarticlewthoiframe{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    background-color: crimson;
+    border-radius: 10px;
+    padding: 5px 0px;
+    width: auto;
+    color: white;
+}
+.gridcontainerinterarticle div{
+    width: auto;
+}
+.gridcontainerinterarticle h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.gridcontainerinterarticle p{
+    display: block;
+    text-align: justify;
+    margin: 5px 10px;
+}
+.gridcontainerinterarticle iframe{
+    display: block;
+    margin: 0 auto;
+    width: 72vw;
+    height: 27vh;
+    border-radius: 5px;
+}
+.gridcontainerinterarticle iframe:hover{
+    width: 75vw;
+    height: 30vh;
+    box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+    -moz-box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+}
+.carruselmod{
+    min-width: 350px;
+    max-width: 72vw;
+    min-height: 300px;
+    max-height: auto;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.carruselmod img{
+    border-radius: 5px;
+}
+.carruselmod:hover{
+    max-width: 75vw;
+    box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+    -moz-box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+}
+.carruselmod div div{
+    margin: 0 auto;
+}
+.car
 
 
 
 /* ///////////////////////////////////////////////////////////////////////////////////// */
 /* Ocultar botones parqa posterior configuracion con javascrip */
-.containermainpgs button{
-    display: none;
-}
