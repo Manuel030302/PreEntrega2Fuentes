@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pueblos Mágicos</title>
+    <!-- Etiqueta para cargar el favicon en formato .ico -->
+    <link rel="icon" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- Seccion de cabecera -->
+    <header>
+        <div>
+            <div class="logo">
+                <!-- Logo de la pagina hasta arriba a la derecha -->
+                <a href=""><img class="escudo" src="./media/Escudo_de_Armas_de_México.png" alt=""></a>
+                <h2>Mi México Mágico</h2>
+            </div>
+                <!-- Bloque de navegacion -->
+            <nav class="barranav">
+                <!-- Nota:Implementar una sublista desplegable de la lista de navegacion principal para cada opcion principal de la barra de navegacion 
+                tenga sub-opciones que refieran a una seccion especifica de cada pagina (Conbinacion de enlaces relativos e internos) -->
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="./pages/hidalgo.html">Hidalgo</a></li>
+                    <li><a href="./pages/yucatan.html">Yucatán</a></li>
+                    <li><a href="./pages/campeche.html">Campeche</a></li>
+                    <li><a href="./pages/puebla.html">Puebla</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+    </header>
+    
+    <!-- Seccion de contenido principal -->
+    <main class="mainindexsize mainfondo">
+        <div class="container">
+            <!-- Titulo de la pagina -->
+            <h1 id="titulop">Pueblos Mágicos</h1>
+            <section id="sec1" class="secmain" data-aos="fade-right">
+                <!-- Titulo el cual, al pasar el mouse por encima de este se desplegara una caja de texto con info relacionada a este -->
+                <h2><a href="">México mágico</a></h2>
+                   <!-- Caja de texto que se desplegara al pasar el mouse sobre el titulo "Mexico magico" -->
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente consequuntur aspernatur rerum optio, adipisci, exercitationem suscipit in ratione eos praesentium maiores. Voluptates aliquam perferendis omnis non similique asperiores cum eum!</p>
+                </div>
+            </section>
+    
+            <Section id="sec2" class="secmain" data-aos="fade-left"">
+                <!-- Titulo el cual, al pasar el mouse por encima de este se desplegara una caja de texto con info relacionada a este -->
+                <h2><a href="">¿Qué es un pueblo mágico?</a></h2>
+                <!-- Caja de texto que se desplegara al pasar el mouse sobre el titulo "¿Que es un pueblo magico?" -->
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente consequuntur aspernatur rerum optio, adipisci, exercitationem suscipit in ratione eos praesentium maiores. Voluptates aliquam perferendis omnis non similique asperiores cum eum!</p>
+                </div>
+            </Section>
+        </div>
+    </main> 
+
+        <!-- Seccion de pie de pagina -->
+    <footer>
+        <div class="containermedfooter">        
+            <!-- Bloque del pie de pagina con enlaces a redes sociales -->
+            <div data-aos="flip-left" class="footcontain stylegreenflgfooter">
+                <h2>Redes sociales</h2>
+                <ul>
+                    <li><img src="./media/facelogo.png" alt=""> <a href="#">Facebook</a></li>
+                    <li><img src="./media/instalogo.png" alt=""> <a href="#">Instagram</a></li>
+                    <li><img src="./media/twitlogo.png" alt=""> <a href="#">Twitter</a></li>
+                    <li><img src="./media/snaplogo.png" alt=""> <a href="#">Snapchat</a></li>
+                </ul>
+            </div>
+            <!-- Bloque del pie de pagina con un enlace a un "documento de aviso de privacidad" -->
+            <div data-aos="flip-right" class="footcontain stylewhiteflgfooter">
+                <h2>Información</h2>
+                <a href="#">Aviso de privacidad</a>
+            </div>
+            <!-- Bloque del pie de pagina con un formulario para mandar comentarios junto con su nombre e email asi como botones para mandar
+            la info o limpiar los campos-->
+            <div data-aos="flip-left" class="footcontain">
+                <!-- Se inicia el form -->
+                <form action="" method="get">
+                    <fieldset>
+                        <h2><legend>Contactanos</legend></h2>
+                        <!-- Bloque de inputs  de nombre e Email -->
+                        <div>                          
+                            <!-- Bloque del formulario que contiene el input de tipo texto para ingresar el nombre del usuario -->
+                            <label for="Nom">Nombre</label>
+                            <div>
+                                <input class="textareastyle" type="text" name="Nombre" id="Nom">
+                            </div>                           
+                            <!-- Bloque del formulario que contiene el input de tipo texto para ingresar el email del usuario -->
+                            <label for="mail">Email</label>
+                            <div>                               
+                                <input class="textareastyle" type="email" name="email" id="mail">
+                            </div>
+                        </div>
+                        <!-- Bloque del formulario que contiene un area de texto para ingresar un comentario -->
+                        <div>
+                            <label for="com">Comentarios</label>
+                            <div>  
+                                <textarea class="textareastyle" name="comentario" id="com" cols="30" rows="10">Escribe tu comentario</textarea>
+                            </div> 
+                        </div>
+                        <!-- Bloque de botones del formulario -->
+                        <div>
+                            <!-- Bloque del formulario que contiene un input de tipo submit para mandar los datos ingresados al form -->                  
+                            <div class="buttonformcontainer">
+                                <label for=""></label>
+                                <input class="buttonformstyle" type="submit" name="Enviar" id="sbm" value="Enviar">
+                            </div>
+                            <!-- Bloque del formulario que contiene un input de tipo reset para borrar los datos ingresados al form -->
+                            <div class="buttonformcontainer">
+                                <label for=""></label>
+                                <input class="buttonformstyle" type="reset" name="Borrar" id="rst" value="Borrar">
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>

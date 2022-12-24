@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pueblos Mágicos</title>
+    <!-- Etiqueta para cargar el favicon en formato .ico -->
+    <link rel="icon" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <!-- Seccion de cabecera -->
+    <header>
+        <div>
+            <div class="logo">
+                <!-- Logo de la pagina hasta arriba a la derecha -->
+                <a href=""><img class="escudo" src="../media/Escudo_de_Armas_de_México.png" alt=""></a>
+                <h2>Mi México Mágico</h2>
+            </div>
+                <!-- Bloque de navegacion -->
+            <nav class="barranav">
+                <!-- Nota:Implementar una sublista desplegable de la lista de navegacion principal para cada opcion principal de la barra de navegacion 
+                tenga sub-opciones que refieran a una seccion especifica de cada pagina (Conbinacion de enlaces relativos e internos) -->
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./pages/hidalgo.html">Hidalgo</a></li>
+                    <li><a href="./pages/yucatan.html">Yucatán</a></li>
+                    <li><a href="./pages/campeche.html">Campeche</a></li>
+                    <li><a href="./pages/puebla.html">Puebla</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+    </header>
+    
+    <!-- Bloque de contenido principal ------------------------------------------------------------------------------------------------------ -->
+    <main>
+        <!-- Titulo de la pagina -->
+        <h1>Hidalgo</h1>
+        <!-- Caja de texto con animacion cuando se entre por primera vez a la pagina -->
+        <div class="containermainpgs">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius commodi repudiandae recusandae et quidem fuga impedit voluptatem assumenda, quam facere deleniti. Saepe voluptate officiis ex ipsum enim, reiciendis maxime numquam.</p>
+        </div>
+        <!-- Cada seccion contiene algunos articulos los cuales se veran como imagenes con un titulo descriptivo,
+        los cuales al ser seleccionados se ocultaran los demas articulos y mediante una animacion se ampliara
+        el articulo seleccionado (ocupando todo el espacio de la seccion), mostrando info acerca del tema, al clickear la "X" en la esquina superior del
+        articulo este se retraera y volvera a la vista original -->
+
+        <!-- Seccion de atractivos del estado (Eventos, festividades, lugares, souveniers, etc), conjunto de articulos (bloque desplegable) -->
+        <Section class="containermainpgs">
+            <h2>Atractivos</h2>
+            <!-- Bloque desplegable -->
+            <article>
+                <h3><button>Atractivo1</button></h3>
+                <div>
+                    <h4>Atractivo1</h4>
+                    <div>
+                        <!-- Bloque de informacion -->
+                        <div>
+                            <!-- CONTENIDO Y DESCRIPCION DEL ARTICULO -->
+                            <h5>Atractivo1Subtitulo</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error obcaecati impedit minus nam eveniet debitis mollitia? Earum dicta optio delectus magnam vel beatae, ratione ut atque. Error, recusandae consequuntur?</p>    
+                        </div>
+                            <!-- Bloque de carrusel de imagenes y iframe -->
+                        <div>
+                            <!-- Bloque de ubicacion -->
+                            <div>
+                                <h5>¿Como llegar?</h5>
+                                <!-- IFRAME DE UBICACION -->
+                            </div>
+                            <!-- Bloque de multimedia -->
+                            <!-- <div class="carrousel">
+                                <div class="conteCarrousel">
+                                    <div class="itemCarrousel" id="itemCarrousel-1">
+                                        <div class="itemCarrouselTarjeta">A</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel-3">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel-2">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="itemCarrousel" id="itemCarrousel-2">
+                                        <div class="itemCarrouselTarjeta">B</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel-1">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel-3">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="itemCarrousel" id="itemCarrousel-3">
+                                        <div class="itemCarrouselTarjeta">C</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel-2">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel-1">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="conteCarrouselController">
+                                    <a href="#itemCarrousel-1">•</a>
+                                    <a href="#itemCarrousel-2">•</a>
+                                    <a href="#itemCarrousel-3">•</a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- Bloque desplegable -->
+            <article>
+                <h3><button>Atractivo2</button></h3>
+                <div>
+                    <h4>Atractivo2</h4>
+                    <div>
+                        <!-- Bloque de informacion -->
+                        <div>
+                            <!-- CONTENIDO Y DESCRIPCION DEL ARTICULO -->
+                            <h5>Atractivo2Subtitulo</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error obcaecati impedit minus nam eveniet debitis mollitia? Earum dicta optio delectus magnam vel beatae, ratione ut atque. Error, recusandae consequuntur?</p>    
+                        </div>
+                            <!-- Bloque de carrusel de imagenes y iframe -->
+                        <div>
+                            <!-- Bloque de ubicacion -->
+                            <div>
+                                <h5>¿Como llegar?</h5>
+                                <!-- IFRAME DE UBICACION -->
+                            </div>
+                            <!-- Bloque de multimedia -->
+                            <!-- <div class="carrousel">
+                                <div class="conteCarrousel">
+                                    <div class="itemCarrousel" id="itemCarrousel2-1">
+                                        <div class="itemCarrouselTarjeta">A</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel-3">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel-2">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="itemCarrousel" id="itemCarrousel2-2">
+                                        <div class="itemCarrouselTarjeta">B</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel2-1">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel2-3">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="itemCarrousel" id="itemCarrousel2-3">
+                                        <div class="itemCarrouselTarjeta">C</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel2-2">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel2-1">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="conteCarrouselController">
+                                    <a href="#itemCarrousel2-1">•</a>
+                                    <a href="#itemCarrousel2-2">•</a>
+                                    <a href="#itemCarrousel2-3">•</a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </Section>
+        <!-- Seccion de platillos tipicos del estado y demas gastronomia emblematica o popular de la region, conjunto de articulos (bloque desplegable) -->
+        <Section class="containermainpgs">
+            <h2>Platillos</h2>
+            <!-- Bloque desplegable -->
+            <article>
+                <h3><button>Platillos1</button></h3>
+                <div>
+                    <h4>Platillos1</h4>
+                    <div>
+                        <!-- Bloque de informacion -->
+                        <div>
+                            <!-- CONTENIDO Y DESCRIPCION DEL ARTICULO -->
+                            <h5>Platillos1Subtitulo</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error obcaecati impedit minus nam eveniet debitis mollitia? Earum dicta optio delectus magnam vel beatae, ratione ut atque. Error, recusandae consequuntur?</p>    
+                        </div>
+                            <!-- Bloque de carrusel de imagenes y iframe -->
+                        <div>
+                            <!-- Bloque de ubicacion -->
+                            <div>
+                                <h5>¿Como llegar?</h5>
+                                <!-- IFRAME DE UBICACION -->
+                            </div>
+                            <!-- Bloque de multimedia -->
+                            <!-- <div class="carrousel">
+                                <div class="conteCarrousel">
+                                    <div class="itemCarrousel" id="itemCarrousel-1">
+                                        <div class="itemCarrouselTarjeta">A</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel-3">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel-2">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="itemCarrousel" id="itemCarrousel-2">
+                                        <div class="itemCarrouselTarjeta">B</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel-1">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel-3">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="itemCarrousel" id="itemCarrousel-3">
+                                        <div class="itemCarrouselTarjeta">C</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel-2">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel-1">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="conteCarrouselController">
+                                    <a href="#itemCarrousel-1">•</a>
+                                    <a href="#itemCarrousel-2">•</a>
+                                    <a href="#itemCarrousel-3">•</a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- Bloque desplegable -->
+            <article>
+                <h3><button>Platillos2</button></h3>
+                <div>
+                    <h4>Platillos2</h4>
+                    <div>
+                        <!-- Bloque de informacion -->
+                        <div>
+                            <!-- CONTENIDO Y DESCRIPCION DEL ARTICULO -->
+                            <h5>Platillos2Subtitulo</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error obcaecati impedit minus nam eveniet debitis mollitia? Earum dicta optio delectus magnam vel beatae, ratione ut atque. Error, recusandae consequuntur?</p>    
+                        </div>
+                            <!-- Bloque de carrusel de imagenes y iframe -->
+                        <div>
+                            <!-- Bloque de ubicacion -->
+                            <div>
+                                <h5>¿Como llegar?</h5>
+                                <!-- IFRAME DE UBICACION -->
+                            </div>
+                            <!-- Bloque de multimedia -->
+                            <!-- <div class="carrousel">
+                                <div class="conteCarrousel">
+                                    <div class="itemCarrousel" id="itemCarrousel2-1">
+                                        <div class="itemCarrouselTarjeta">A</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel-3">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel-2">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="itemCarrousel" id="itemCarrousel2-2">
+                                        <div class="itemCarrouselTarjeta">B</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel2-1">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel2-3">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="itemCarrousel" id="itemCarrousel2-3">
+                                        <div class="itemCarrouselTarjeta">C</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel2-2">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel2-1">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="conteCarrouselController">
+                                    <a href="#itemCarrousel2-1">•</a>
+                                    <a href="#itemCarrousel2-2">•</a>
+                                    <a href="#itemCarrousel2-3">•</a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </Section>
+        <!-- Seccion de pueblos magicos ubicados en el estado, con una breve informacion acerca del lugar, archivos multimedia relacionados a este y un iframe
+        de google maps que te indique como llegar, conjunto de articulos (bloque desplegable), conjunto de articulos (bloque desplegable) -->
+        <Section class="containermainpgs">
+            <h2>Pueblos mágicos</h2>
+            <!-- Bloque desplegable -->
+            <article>
+                <h3><button>Pueblos mágicos1</button></h3>
+                <div>
+                    <h4>Pueblos mágicos1</h4>
+                    <div>
+                        <!-- Bloque de informacion -->
+                        <div>
+                            <!-- CONTENIDO Y DESCRIPCION DEL ARTICULO -->
+                            <h5>Pueblos mágicos1Subtitulo</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error obcaecati impedit minus nam eveniet debitis mollitia? Earum dicta optio delectus magnam vel beatae, ratione ut atque. Error, recusandae consequuntur?</p>    
+                        </div>
+                            <!-- Bloque de carrusel de imagenes y iframe -->
+                        <div>
+                            <!-- Bloque de ubicacion -->
+                            <div>
+                                <h5>¿Como llegar?</h5>
+                                <!-- IFRAME DE UBICACION -->
+                            </div>
+                            <!-- Bloque de multimedia -->
+                            <!-- <div class="carrousel">
+                                <div class="conteCarrousel">
+                                    <div class="itemCarrousel" id="itemCarrousel-1">
+                                        <div class="itemCarrouselTarjeta">A</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel-3">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel-2">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="itemCarrousel" id="itemCarrousel-2">
+                                        <div class="itemCarrouselTarjeta">B</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel-1">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel-3">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="itemCarrousel" id="itemCarrousel-3">
+                                        <div class="itemCarrouselTarjeta">C</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel-2">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel-1">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="conteCarrouselController">
+                                    <a href="#itemCarrousel-1">•</a>
+                                    <a href="#itemCarrousel-2">•</a>
+                                    <a href="#itemCarrousel-3">•</a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- Bloque desplegable -->
+            <article>
+                <h3><button>Pueblos mágicos2</button></h3>
+                <div>
+                    <h4>Pueblos mágicos2</h4>
+                    <div>
+                        <!-- Bloque de informacion -->
+                        <div>
+                            <!-- CONTENIDO Y DESCRIPCION DEL ARTICULO -->
+                            <h5>Pueblos mágicos2Subtitulo</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error obcaecati impedit minus nam eveniet debitis mollitia? Earum dicta optio delectus magnam vel beatae, ratione ut atque. Error, recusandae consequuntur?</p>    
+                        </div>
+                            <!-- Bloque de carrusel de imagenes y iframe -->
+                        <div>
+                            <!-- Bloque de ubicacion -->
+                            <div>
+                                <h5>¿Como llegar?</h5>
+                                <!-- IFRAME DE UBICACION -->
+                            </div>
+                            <!-- Bloque de multimedia -->
+                            <!-- <div class="carrousel">
+                                <div class="conteCarrousel">
+                                    <div class="itemCarrousel" id="itemCarrousel2-1">
+                                        <div class="itemCarrouselTarjeta">A</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel-3">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel-2">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="itemCarrousel" id="itemCarrousel2-2">
+                                        <div class="itemCarrouselTarjeta">B</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel2-1">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel2-3">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="itemCarrousel" id="itemCarrousel2-3">
+                                        <div class="itemCarrouselTarjeta">C</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel2-2">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel2-1">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="conteCarrouselController">
+                                    <a href="#itemCarrousel2-1">•</a>
+                                    <a href="#itemCarrousel2-2">•</a>
+                                    <a href="#itemCarrousel2-3">•</a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </Section>
+        <!-- Seccion de actividades recrativas que puedes hacer en el estado, asi como posibles iframes de paginas o servicios que planeen estas actividades
+        (Ejemplo: Xcaret de cancun o demas ajencias de viajes), conjunto de articulos (bloque desplegable) -->
+        <Section class="containermainpgs">
+            <h2>Actividades</h2>
+            <!-- Bloque desplegable -->
+            <article>
+                <h3><button>Actividades1</button></h3>
+                <div>
+                    <h4>Actividades1</h4>
+                    <div>
+                        <!-- Bloque de informacion -->
+                        <div>
+                            <!-- CONTENIDO Y DESCRIPCION DEL ARTICULO -->
+                            <h5>Actividades1Subtitulo</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error obcaecati impedit minus nam eveniet debitis mollitia? Earum dicta optio delectus magnam vel beatae, ratione ut atque. Error, recusandae consequuntur?</p>    
+                        </div>
+                            <!-- Bloque de carrusel de imagenes y iframe -->
+                        <div>
+                            <!-- Bloque de ubicacion -->
+                            <div>
+                                <h5>¿Como llegar?</h5>
+                                <!-- IFRAME DE UBICACION -->
+                            </div>
+                            <!-- Bloque de multimedia -->
+                            <!-- <div class="carrousel">
+                                <div class="conteCarrousel">
+                                    <div class="itemCarrousel" id="itemCarrousel-1">
+                                        <div class="itemCarrouselTarjeta">A</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel-3">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel-2">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="itemCarrousel" id="itemCarrousel-2">
+                                        <div class="itemCarrouselTarjeta">B</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel-1">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel-3">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="itemCarrousel" id="itemCarrousel-3">
+                                        <div class="itemCarrouselTarjeta">C</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel-2">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel-1">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="conteCarrouselController">
+                                    <a href="#itemCarrousel-1">•</a>
+                                    <a href="#itemCarrousel-2">•</a>
+                                    <a href="#itemCarrousel-3">•</a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- Bloque desplegable -->
+            <article>
+                <h3><button>Actividades2</button></h3>
+                <div>
+                    <h4>Actividades2</h4>
+                    <div>
+                        <!-- Bloque de informacion -->
+                        <div>
+                            <!-- CONTENIDO Y DESCRIPCION DEL ARTICULO -->
+                            <h5>Actividades2Subtitulo</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error obcaecati impedit minus nam eveniet debitis mollitia? Earum dicta optio delectus magnam vel beatae, ratione ut atque. Error, recusandae consequuntur?</p>    
+                        </div>
+                            <!-- Bloque de carrusel de imagenes y iframe -->
+                        <div>
+                            <!-- Bloque de ubicacion -->
+                            <div>
+                                <h5>¿Como llegar?</h5>
+                                <!-- IFRAME DE UBICACION -->
+                            </div>
+                            <!-- Bloque de multimedia -->
+                            <!-- <div class="carrousel">
+                                <div class="conteCarrousel">
+                                    <div class="itemCarrousel" id="itemCarrousel2-1">
+                                        <div class="itemCarrouselTarjeta">A</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel-3">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel-2">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="itemCarrousel" id="itemCarrousel2-2">
+                                        <div class="itemCarrouselTarjeta">B</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel2-1">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel2-3">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="itemCarrousel" id="itemCarrousel2-3">
+                                        <div class="itemCarrouselTarjeta">C</div>
+                                        <div class="itemCarrouselArrows">
+                                            <a href="#itemCarrousel2-2">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </a>
+                                            <a href="#itemCarrousel2-1">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="conteCarrouselController">
+                                    <a href="#itemCarrousel2-1">•</a>
+                                    <a href="#itemCarrousel2-2">•</a>
+                                    <a href="#itemCarrousel2-3">•</a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </Section>
+    </main>
+
+        <!-- Seccion de pie de pagina -->
+    <footer>
+        <div class="containermedfooter">        
+            <!-- Bloque del pie de pagina con enlaces a redes sociales -->
+            <div data-aos="flip-left" class="footcontain stylegreenflgfooter">
+                <h2>Redes sociales</h2>
+                <ul>
+                    <li><img src="./media/facelogo.png" alt=""> <a href="#">Facebook</a></li>
+                    <li><img src="./media/instalogo.png" alt=""> <a href="#">Instagram</a></li>
+                    <li><img src="./media/twitlogo.png" alt=""> <a href="#">Twitter</a></li>
+                    <li><img src="./media/snaplogo.png" alt=""> <a href="#">Snapchat</a></li>
+                </ul>
+            </div>
+            <!-- Bloque del pie de pagina con un enlace a un "documento de aviso de privacidad" -->
+            <div data-aos="flip-right" class="footcontain stylewhiteflgfooter">
+                <h2>Información</h2>
+                <a href="#">Aviso de privacidad</a>
+            </div>
+            <!-- Bloque del pie de pagina con un formulario para mandar comentarios junto con su nombre e email asi como botones para mandar
+            la info o limpiar los campos-->
+            <div data-aos="flip-left" class="footcontain">
+                <!-- Se inicia el form -->
+                <form action="" method="get">
+                    <fieldset>
+                        <h2><legend>Contactanos</legend></h2>
+                        <!-- Bloque de inputs  de nombre e Email -->
+                        <div>                          
+                            <!-- Bloque del formulario que contiene el input de tipo texto para ingresar el nombre del usuario -->
+                            <label for="Nom">Nombre</label>
+                            <div>
+                                <input class="textareastyle" type="text" name="Nombre" id="Nom">
+                            </div>                           
+                            <!-- Bloque del formulario que contiene el input de tipo texto para ingresar el email del usuario -->
+                            <label for="mail">Email</label>
+                            <div>                               
+                                <input class="textareastyle" type="email" name="email" id="mail">
+                            </div>
+                        </div>
+                        <!-- Bloque del formulario que contiene un area de texto para ingresar un comentario -->
+                        <div>
+                            <label for="com">Comentarios</label>
+                            <div>  
+                                <textarea class="textareastyle" name="comentario" id="com" cols="30" rows="10">Escribe tu comentario</textarea>
+                            </div> 
+                        </div>
+                        <!-- Bloque de botones del formulario -->
+                        <div>
+                            <!-- Bloque del formulario que contiene un input de tipo submit para mandar los datos ingresados al form -->                  
+                            <div class="buttonformcontainer">
+                                <label for=""></label>
+                                <input class="buttonformstyle" type="submit" name="Enviar" id="sbm" value="Enviar">
+                            </div>
+                            <!-- Bloque del formulario que contiene un input de tipo reset para borrar los datos ingresados al form -->
+                            <div class="buttonformcontainer">
+                                <label for=""></label>
+                                <input class="buttonformstyle" type="reset" name="Borrar" id="rst" value="Borrar">
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
