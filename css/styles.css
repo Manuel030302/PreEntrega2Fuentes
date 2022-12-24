@@ -378,21 +378,36 @@ h3 button{
 .carruselmod div div{
     margin: 0 auto;
 }
-/* @media(min-width:660px){
-    .containermedfooter{
-        display: grid;
-        grid-template-columns: 3fr 2fr 5fr;
-    
+
+@media(min-width:700px){
+    .gridcontainerinterarticle{
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
     }
-    .stylegreenflgfooter h2{
-        margin-bottom: 10px;
-        max-width: 30%;
+    .gridcontainerinterarticlewthoiframe{
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
     }
-    .stylewhiteflgfooter h2{
-        margin-bottom: 10px;
-        max-width: 20%;
+    .gridcontainerinterarticle iframe{
+        width: 52vw;
     }
-} */
+    .gridcontainerinterarticle iframe:hover{
+        width: 55vw;
+        box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+        -webkit-box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+        -moz-box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+    }
+    .carruselmod{
+        max-width: 52vw;
+    }
+    .carruselmod:hover{
+        max-width: 55vw;
+        box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+        -webkit-box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+        -moz-box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+    }
+
+}
 
 
 
