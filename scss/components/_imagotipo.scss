@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
 
-    .escudo{
+    .logo__escudo{
         width: 60px;
         height: auto;
         margin-right: 10px;
@@ -11,14 +11,14 @@
         font-weight: 600;
         font-size: x-large;
 
-        .mexicogreen{
-            color: darkgreen;
+        .h2__mexicogreen{
+            color: $color__primario;
         }
-        .mexicowhite{
-            color: white;
+        .h2__mexicowhite{
+            color: $color__secundario;
         }
-        .mexicored{
-            color: crimson;
+        .h2__mexicored{
+            color: $color__terciario;
         }
     }
 

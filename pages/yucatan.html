@@ -19,8 +19,8 @@
     <div>
       <div class="logo">
         <!-- Logo de la pagina hasta arriba a la derecha -->
-        <a href=""><img class="escudo" src="../media/Escudo_de_Armas_de_México.png" alt=""></a>
-        <h2>Mi <span class="mexicogreen">Mé</span><span class="mexicowhite">xi</span><span class="mexicored">co</span> Mágico</h2>
+        <a href=""><img class="logo__escudo" src="../media/Escudo_de_Armas_de_México.png" alt=""></a>
+        <h2>Mi <span class="h2__mexicogreen">Mé</span><span class="h2__mexicowhite">xi</span><span class="h2__mexicored">co</span> Mágico</h2>
       </div>
       <!-- Bloque de navegacion -->
       <nav class="barranav">
@@ -39,12 +39,12 @@
   </header>
   
   <!-- Bloque de contenido principal ------------------------------------------------------------------------------------------------------ -->
-  <main class="mainbackgrhidalgo">
+  <main class="mainbackground">
     <!-- Titulo de la pagina -->
     <h1>Yucatán</h1>
     <!-- Caja de texto con animacion cuando se entre por primera vez a la pagina -->
-    <div class="containermainpgs h1pstyle" data-aos="zoom-in">
-      <p class="h5p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius commodi repudiandae recusandae et quidem fuga impedit voluptatem assumenda, quam facere deleniti. Saepe voluptate officiis ex ipsum enim, reiciendis maxime numquam.</p>
+    <div class="mainbackground__container mainbackground__paragraph" data-aos="zoom-in">
+      <p class="paragraph__style">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius commodi repudiandae recusandae et quidem fuga impedit voluptatem assumenda, quam facere deleniti. Saepe voluptate officiis ex ipsum enim, reiciendis maxime numquam.</p>
     </div>
     <!-- Cada seccion contiene algunos articulos los cuales se veran como imagenes con un titulo descriptivo,
     los cuales al ser seleccionados se ocultaran los demas articulos y mediante una animacion se ampliara
@@ -52,25 +52,25 @@
     articulo este se retraera y volvera a la vista original -->
 
     <!-- Seccion de atractivos del estado (Eventos, festividades, lugares, souveniers, etc), conjunto de articulos (bloque desplegable) -->
-    <Section class="containermainpgs">
+    <Section class="mainbackground__container">
       <h2 data-aos="fade-right">Atractivos</h2>
       <!-- Bloque desplegable -->
       <article data-aos="fade-up">
-        <button class="buttonlayoutarticlediv">&times;</button>
+        <button class="article__button">&times;</button>
         <div>
-          <h4 data-aos="flip-up">Atractivo1</h4>
-          <div data-aos="flip-right" class="gridcontainerinterarticle">
+          <h3 data-aos="flip-up">Atractivo1</h3>
+          <div data-aos="flip-right" class="article__gridcontainer">
             <!-- Bloque de informacion -->
             <div>
               <!-- CONTENIDO Y DESCRIPCION DEL ARTICULO -->
-              <h5>Atractivo1Subtitulo</h5>
+              <h4>Atractivo1Subtitulo</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error obcaecati impedit minus nam eveniet debitis mollitia? Earum dicta optio delectus magnam vel beatae, ratione ut atque. Error, recusandae consequuntur?</p>    
             </div>
             <!-- Bloque de carrusel de imagenes y iframe -->
             <div>
               <!-- Bloque de ubicacion -->
               <div>
-                <h5>¿Como llegar?</h5>
+                <h4>¿Como llegar?</h4>
                 <!-- IFRAME DE UBICACION -->
                 <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d119862.07557624119!2d-98.7373289392733!3d20.146982357181308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d20.1469962!2d-98.6672885!5e0!3m2!1ses!2smx!4v1671865784478!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
@@ -107,21 +107,21 @@
       </article>
       <!-- Bloque desplegable -->
       <article data-aos="fade-up">
-        <button class="buttonlayoutarticlediv">&times;</button>
+        <button class="article__button">&times;</button>
         <div>
-          <h4 data-aos="flip-up">Atractivo2</h4>
-          <div data-aos="flip-right" class="gridcontainerinterarticle">
+          <h3 data-aos="flip-up">Atractivo2</h3>
+          <div data-aos="flip-right" class="article__gridcontainer">
             <!-- Bloque de informacion -->
             <div>
               <!-- CONTENIDO Y DESCRIPCION DEL ARTICULO -->
-              <h5>Atractivo2Subtitulo</h5>
+              <h4>Atractivo2Subtitulo</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error obcaecati impedit minus nam eveniet debitis mollitia? Earum dicta optio delectus magnam vel beatae, ratione ut atque. Error, recusandae consequuntur?</p>    
             </div>
             <!-- Bloque de carrusel de imagenes y iframe -->
             <div>
               <!-- Bloque de ubicacion -->
               <div>
-                <h5>¿Como llegar?</h5>
+                <h4>¿Como llegar?</h4>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d120040.1774857561!2d-98.73835014325364!3d19.91363329062266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d19.914597!2d-98.6700019!5e0!3m2!1ses!2smx!4v1671878731842!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
               <!-- Bloque de multimedia -->
@@ -157,18 +157,18 @@
       </article>
     </Section>
     <!-- Seccion de platillos tipicos del estado y demas gastronomia emblematica o popular de la region, conjunto de articulos (bloque desplegable) -->
-    <Section class="containermainpgs">
+    <Section class="mainbackground__container">
       <h2 data-aos="fade-right">Platillos</h2>
       <!-- Bloque desplegable -->
       <article data-aos="fade-up">
-        <button class="buttonlayoutarticlediv">&times;</button>
+        <button class="article__button">&times;</button>
         <div>
-          <h4 data-aos="flip-up">Platillos1</h4>
-          <div data-aos="flip-right" class="gridcontainerinterarticlewthoiframe">
+          <h3 data-aos="flip-up">Platillos1</h3>
+          <div data-aos="flip-right" class="article__gridcontainer--noiframe">
             <!-- Bloque de informacion -->
             <div>
               <!-- CONTENIDO Y DESCRIPCION DEL ARTICULO -->
-              <h5>Platillos1Subtitulo</h5>
+              <h4>Platillos1Subtitulo</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error obcaecati impedit minus nam eveniet debitis mollitia? Earum dicta optio delectus magnam vel beatae, ratione ut atque. Error, recusandae consequuntur?</p>    
             </div>
             <!-- Bloque de carrusel de imagenes y iframe -->
@@ -206,14 +206,14 @@
       </article>
       <!-- Bloque desplegable -->
       <article data-aos="fade-up">
-        <button class="buttonlayoutarticlediv">&times;</button>
+        <button class="article__button">&times;</button>
         <div>
-          <h4 data-aos="flip-up">Platillos2</h4>
-          <div data-aos="flip-right" class="gridcontainerinterarticlewthoiframe">
+          <h3 data-aos="flip-up">Platillos2</h3>
+          <div data-aos="flip-right" class="article__gridcontainer--noiframe">
             <!-- Bloque de informacion -->
             <div>
               <!-- CONTENIDO Y DESCRIPCION DEL ARTICULO -->
-              <h5>Platillos2Subtitulo</h5>
+              <h4>Platillos2Subtitulo</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error obcaecati impedit minus nam eveniet debitis mollitia? Earum dicta optio delectus magnam vel beatae, ratione ut atque. Error, recusandae consequuntur?</p>    
             </div>
             <!-- Bloque de carrusel de imagenes y iframe -->
@@ -252,25 +252,25 @@
     </Section>
     <!-- Seccion de pueblos magicos ubicados en el estado, con una breve informacion acerca del lugar, archivos multimedia relacionados a este y un iframe
     de google maps que te indique como llegar, conjunto de articulos (bloque desplegable), conjunto de articulos (bloque desplegable) -->
-    <Section class="containermainpgs">
+    <Section class="mainbackground__container">
       <h2 data-aos="fade-right">Pueblos mágicos</h2>
       <!-- Bloque desplegable -->
       <article data-aos="fade-up">
-        <button class="buttonlayoutarticlediv">&times;</button>
+        <button class="article__button">&times;</button>
         <div>
-          <h4 data-aos="flip-up">Pueblos mágicos1</h4>
-          <div data-aos="flip-right" class="gridcontainerinterarticle">
+          <h3 data-aos="flip-up">Pueblos mágicos1</h3>
+          <div data-aos="flip-right" class="article__gridcontainer">
             <!-- Bloque de informacion -->
             <div>
               <!-- CONTENIDO Y DESCRIPCION DEL ARTICULO -->
-              <h5>Pueblos mágicos1Subtitulo</h5>
+              <h4>Pueblos mágicos1Subtitulo</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error obcaecati impedit minus nam eveniet debitis mollitia? Earum dicta optio delectus magnam vel beatae, ratione ut atque. Error, recusandae consequuntur?</p>    
             </div>
             <!-- Bloque de carrusel de imagenes y iframe -->                          
             <div>
               <!-- Bloque de ubicacion -->
               <div>
-                <h5>¿Como llegar?</h5>
+                <h4>¿Como llegar?</h4>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d59934.4330297831!2d-98.71467866325558!3d20.138133011936155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85d107d84eac0477%3A0x8ef25ce8f8048fdd!2sReal%20del%20Monte%2C%20Hgo.!3m2!1d20.1381378!2d-98.6734788!5e0!3m2!1ses!2smx!4v1671877728813!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
               <!-- Bloque de multimedia -->
@@ -306,21 +306,21 @@
       </article>
       <!-- Bloque desplegable -->
       <article data-aos="fade-up">
-        <button class="buttonlayoutarticlediv">&times;</button>
+        <button class="article__button">&times;</button>
         <div>
-          <h4 data-aos="flip-up">Pueblos mágicos2</h4>
-          <div data-aos="flip-right" class="gridcontainerinterarticle">
+          <h3 data-aos="flip-up">Pueblos mágicos2</h3>
+          <div data-aos="flip-right" class="article__gridcontainer">
             <!-- Bloque de informacion -->
             <div>
               <!-- CONTENIDO Y DESCRIPCION DEL ARTICULO -->
-              <h5>Pueblos mágicos2Subtitulo</h5>
+              <h4>Pueblos mágicos2Subtitulo</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error obcaecati impedit minus nam eveniet debitis mollitia? Earum dicta optio delectus magnam vel beatae, ratione ut atque. Error, recusandae consequuntur?</p>    
             </div>
             <!-- Bloque de carrusel de imagenes y iframe -->
             <div>
               <!-- Bloque de ubicacion -->
               <div>
-                <h5>¿Como llegar?</h5>
+                <h4>¿Como llegar?</h4>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d60020.08534047711!2d-98.70950956489817!3d19.91364225636186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x85d1a56b50b383f7%3A0x9880827147477062!2sZempoala%2C%20Hgo.!3m2!1d19.913646999999997!2d-98.6683097!5e0!3m2!1ses!2smx!4v1671878813105!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
               <!-- Bloque de multimedia -->
@@ -357,18 +357,18 @@
     </Section>
     <!-- Seccion de actividades recrativas que puedes hacer en el estado, asi como posibles iframes de paginas o servicios que planeen estas actividades
     (Ejemplo: Xcaret de cancun o demas ajencias de viajes), conjunto de articulos (bloque desplegable) -->
-    <Section class="containermainpgs">
+    <Section class="mainbackground__container">
       <h2 data-aos="fade-right">Actividades</h2>
       <!-- Bloque desplegable -->
       <article data-aos="fade-up">
-        <button class="buttonlayoutarticlediv">&times;</button>
+        <button class="article__button">&times;</button>
         <div>
-          <h4 data-aos="flip-up">Actividades1</h4>
-          <div data-aos="flip-right" class="gridcontainerinterarticlewthoiframe">
+          <h3 data-aos="flip-up">Actividades1</h3>
+          <div data-aos="flip-right" class="article__gridcontainer--noiframe">
             <!-- Bloque de informacion -->
             <div>
               <!-- CONTENIDO Y DESCRIPCION DEL ARTICULO -->
-              <h5>Actividades1Subtitulo</h5>
+              <h4>Actividades1Subtitulo</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error obcaecati impedit minus nam eveniet debitis mollitia? Earum dicta optio delectus magnam vel beatae, ratione ut atque. Error, recusandae consequuntur?</p>    
             </div>
             <!-- Bloque de carrusel de imagenes y iframe -->
@@ -406,14 +406,14 @@
       </article>
       <!-- Bloque desplegable -->
       <article data-aos="fade-up">
-        <button class="buttonlayoutarticlediv">&times;</button>
+        <button class="article__button">&times;</button>
         <div>
-          <h4 data-aos="flip-up">Actividades2</h4>
-          <div data-aos="flip-right" class="gridcontainerinterarticlewthoiframe">
+          <h3 data-aos="flip-up">Actividades2</h3>
+          <div data-aos="flip-right" class="article__gridcontainer--noiframe">
             <!-- Bloque de informacion -->
             <div>
               <!-- CONTENIDO Y DESCRIPCION DEL ARTICULO -->
-              <h5>Actividades2Subtitulo</h5>
+              <h4>Actividades2Subtitulo</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error obcaecati impedit minus nam eveniet debitis mollitia? Earum dicta optio delectus magnam vel beatae, ratione ut atque. Error, recusandae consequuntur?</p>    
             </div>
             <!-- Bloque de carrusel de imagenes y iframe -->
@@ -456,7 +456,7 @@
   <footer>
     <div class="containermedfooter">        
       <!-- Bloque del pie de pagina con enlaces a redes sociales -->
-      <div data-aos="flip-left" class="footcontain stylegreenflgfooter">
+      <div data-aos="flip-left" class="footcontain containermedfooter__redes">
           <h2>Redes sociales</h2>
           <ul>
               <li><img src="../media/facelogo.png" alt=""> <a href="#">Facebook</a></li>
@@ -466,7 +466,7 @@
           </ul>
       </div>
       <!-- Bloque del pie de pagina con un enlace a un "documento de aviso de privacidad" -->
-      <div data-aos="flip-right" class="footcontain stylewhiteflgfooter">
+      <div data-aos="flip-right" class="footcontain containermedfooter__info">
           <h2>Información</h2>
           <a href="#">Aviso de privacidad</a>
       </div>
@@ -482,32 +482,32 @@
               <!-- Bloque del formulario que contiene el input de tipo texto para ingresar el nombre del usuario -->
               <label for="Nom">Nombre</label>
               <div>
-                <input class="textareastyle" type="text" name="Nombre" id="Nom">
+                <input class="form__textareastyle" type="text" name="Nombre" id="Nom">
               </div>                           
               <!-- Bloque del formulario que contiene el input de tipo texto para ingresar el email del usuario -->
               <label for="mail">Email</label>
               <div>                               
-                <input class="textareastyle" type="email" name="email" id="mail">
+                <input class="form__textareastyle" type="email" name="email" id="mail">
               </div>
             </div>
             <!-- Bloque del formulario que contiene un area de texto para ingresar un comentario -->
             <div>
               <label for="com">Comentarios</label>
               <div>  
-                <textarea class="textareastyle" name="comentario" id="com" cols="30" rows="10">Escribe tu comentario</textarea>
+                <textarea class="form__textareastyle" name="comentario" id="com" cols="30" rows="10">Escribe tu comentario</textarea>
               </div> 
             </div>
             <!-- Bloque de botones del formulario -->
             <div>
               <!-- Bloque del formulario que contiene un input de tipo submit para mandar los datos ingresados al form -->                  
-              <div class="buttonformcontainer">
+              <div class="form__button">
                 <label for=""></label>
-                <input class="buttonformstyle" type="submit" name="Enviar" id="sbm" value="Enviar">
+                <input class="button__style" type="submit" name="Enviar" id="sbm" value="Enviar">
               </div>
               <!-- Bloque del formulario que contiene un input de tipo reset para borrar los datos ingresados al form -->
-              <div class="buttonformcontainer">
+              <div class="form__button">
                 <label for=""></label>
-                <input class="buttonformstyle" type="reset" name="Borrar" id="rst" value="Borrar">
+                <input class="button__style" type="reset" name="Borrar" id="rst" value="Borrar">
               </div>
             </div>
           </fieldset>

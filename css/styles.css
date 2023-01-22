@@ -40,11 +40,11 @@ header div {
     padding: 5px;
   }
 }
-.mainbackgrhidalgo {
+.mainbackground {
   background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-dark.png");
   padding: 20px 0px;
 }
-.mainbackgrhidalgo h1 {
+.mainbackground h1 {
   text-align: center;
   font-weight: 900;
   font-size: 70px;
@@ -52,16 +52,12 @@ header div {
   color: white;
   text-shadow: 0px 0px 13px #000000;
 }
-.mainbackgrhidalgo h2 {
-  font-weight: 600;
-  color: #000000;
-}
-.mainbackgrhidalgo .containermainpgs {
+.mainbackground .mainbackground__container {
   border-radius: 10px;
   margin: 20px 15px;
   padding: 20px;
 }
-.mainbackgrhidalgo .containermainpgs h2 {
+.mainbackground .mainbackground__container h2 {
   color: rgb(0, 0, 0);
   margin-bottom: 10px;
   padding: 10px;
@@ -69,7 +65,7 @@ header div {
   background-color: darkgreen;
   font-weight: 600;
 }
-.mainbackgrhidalgo .containermainpgs article {
+.mainbackground .mainbackground__container article {
   background-color: rgba(10, 246, 179, 0.5333333333);
   border-radius: 10px;
   margin: 5px 0px;
@@ -77,7 +73,7 @@ header div {
   position: relative;
   padding-top: 30px;
 }
-.mainbackgrhidalgo .containermainpgs article .buttonlayoutarticlediv {
+.mainbackground .mainbackground__container article .article__button {
   display: block;
   color: #000000;
   background-color: transparent;
@@ -92,14 +88,14 @@ header div {
   right: 10px;
   transition: background-color 0.3s, box-shadow 0.3s;
 }
-.mainbackgrhidalgo .containermainpgs article .buttonlayoutarticlediv:hover {
+.mainbackground .mainbackground__container article .article__button:hover {
   color: red;
   background-color: white;
   box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
   -webkit-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
   -moz-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
 }
-.mainbackgrhidalgo .containermainpgs article h4 {
+.mainbackground .mainbackground__container article h3 {
   padding: 10px;
   border-radius: 10px;
   background-color: white;
@@ -107,126 +103,16 @@ header div {
   color: red;
   margin-top: 40px;
 }
-.mainbackgrhidalgo .h1pstyle {
+.mainbackground .mainbackground__paragraph {
   display: block;
   background-color: rgba(10, 246, 179, 0.5098039216);
   margin: auto 35px;
 }
-.mainbackgrhidalgo .h5p {
+.mainbackground .mainbackground__paragraph .paragraph__style {
   color: white;
   text-align: justify;
 }
 
-.gridcontainerinterarticle {
-  display: grid;
-  grid-template-rows: 1fr 3fr;
-  background-color: crimson;
-  border-radius: 10px;
-  padding: 5px 0px;
-  width: auto;
-  color: white;
-}
-.gridcontainerinterarticle div {
-  width: auto;
-}
-.gridcontainerinterarticle h5 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-  font-weight: 600;
-}
-.gridcontainerinterarticle p {
-  display: block;
-  text-align: justify;
-  margin: 5px 10px;
-}
-.gridcontainerinterarticle iframe {
-  display: block;
-  margin: 0 auto;
-  width: 72vw;
-  height: 27vh;
-  border-radius: 5px;
-  transition: width 0.3s, height 0.3s, box-shadow 0.3s;
-}
-.gridcontainerinterarticle iframehover {
-  width: 75vw;
-  height: 30vh;
-  box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-  -webkit-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-  -moz-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-}
-
-.gridcontainerinterarticlewthoiframe {
-  display: grid;
-  grid-template-rows: 1fr 2fr;
-  background-color: crimson;
-  border-radius: 10px;
-  padding: 5px 0px;
-  width: auto;
-  color: white;
-}
-.gridcontainerinterarticlewthoiframe h5 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-  font-weight: 600;
-}
-.gridcontainerinterarticlewthoiframe p {
-  display: block;
-  text-align: justify;
-  margin: 5px 10px;
-}
-
-.carruselmod {
-  /* min-width: 350px; */
-  max-width: 72vw;
-  min-height: 300px;
-  max-height: auto;
-  margin: 20px auto;
-  border-radius: 5px;
-  transition: max-width 0.3s, box-shadow 0.3s;
-}
-.carruselmod img {
-  border-radius: 5px;
-}
-.carruselmod div div {
-  margin: 0 auto;
-}
-.carruselmod:hover {
-  max-width: 75vw;
-  box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-  -webkit-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-  -moz-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-}
-
-@media (min-width: 700px) {
-  .gridcontainerinterarticle {
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: none;
-  }
-  .gridcontainerinterarticle iframe {
-    width: 52vw;
-  }
-  .gridcontainerinterarticle iframe:hover {
-    width: 55vw;
-    box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-    -webkit-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-    -moz-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-  }
-  .gridcontainerinterarticlewthoiframe {
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: none;
-  }
-  .carruselmod {
-    max-width: 52vw;
-  }
-  .carruselmod:hover {
-    max-width: 55vw;
-    box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-    -webkit-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-    -moz-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-  }
-}
 @media (max-width: 460px) {
   h1 {
     font-size: 50px;
@@ -247,27 +133,27 @@ footer .containermedfooter .footcontain {
   margin: 10px 15px;
   color: rgb(0, 0, 0);
 }
-footer .containermedfooter .stylegreenflgfooter {
-  background-color: rgb(71, 82, 11);
+footer .containermedfooter .containermedfooter__redes {
+  background-color: darkgreen;
   border-radius: 15px;
   padding: 15px;
   border-style: none;
   min-width: auto;
 }
-footer .containermedfooter .stylegreenflgfooter li {
+footer .containermedfooter .containermedfooter__redes li {
   margin: 10px 0px;
 }
-footer .containermedfooter .stylegreenflgfooter li img {
+footer .containermedfooter .containermedfooter__redes li img {
   max-width: 20px;
 }
-footer .containermedfooter .stylewhiteflgfooter {
+footer .containermedfooter .containermedfooter__info {
   background-color: white;
   border-radius: 15px;
   padding: 15px;
   border-style: none;
   min-width: auto;
 }
-footer .containermedfooter .stylewhiteflgfooter a:hover {
+footer .containermedfooter .containermedfooter__info a:hover {
   color: red;
 }
 footer .containermedfooter form {
@@ -282,7 +168,7 @@ footer .containermedfooter form fieldset {
 footer .containermedfooter form fieldset div {
   margin: 10px auto;
 }
-footer .containermedfooter form fieldset div .textareastyle {
+footer .containermedfooter form fieldset div .form__textareastyle {
   border: none;
   outline: none;
   border: solid 1px #ccc;
@@ -291,16 +177,16 @@ footer .containermedfooter form fieldset div .textareastyle {
   min-width: 75%;
   transition: border 0.3s, background-color 0.3s;
 }
-footer .containermedfooter form fieldset div .textareastyle:focus {
+footer .containermedfooter form fieldset div .form__textareastyle:focus {
   border: solid 1px rgb(226, 105, 105);
   background-color: rgb(226, 105, 105);
 }
-footer .containermedfooter form fieldset div .buttonformcontainer {
+footer .containermedfooter form fieldset div .form__button {
   display: inline-block;
   min-width: auto;
   margin-right: 20px;
 }
-footer .containermedfooter form fieldset div .buttonformcontainer .buttonformstyle {
+footer .containermedfooter form fieldset div .form__button .button__style {
   min-width: 100px;
   border: none;
   border-radius: 2px;
@@ -309,7 +195,7 @@ footer .containermedfooter form fieldset div .buttonformcontainer .buttonformsty
   font-weight: 600;
   transition: color 0.3s, box-shadow 0.3s, background 0.3s;
 }
-footer .containermedfooter form fieldset div .buttonformcontainer .buttonformstyle:hover {
+footer .containermedfooter form fieldset div .form__button .button__style:hover {
   color: black;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   background: linear-gradient(90deg, rgb(69, 69, 0) 0%, rgb(208, 173, 173) 50%, rgb(177, 15, 15) 100%);
@@ -329,11 +215,11 @@ footer a:hover {
     display: grid;
     grid-template-columns: 3fr 2fr 5fr;
   }
-  .stylegreenflgfooter h2 {
+  .containermedfooter__redes h2 {
     margin-bottom: 10px;
     max-width: 30%;
   }
-  .stylewhiteflgfooter h2 {
+  .containermedfooter__info h2 {
     margin-bottom: 10px;
     max-width: 20%;
   }
@@ -342,7 +228,7 @@ footer a:hover {
   display: flex;
   align-items: center;
 }
-.logo .escudo {
+.logo .logo__escudo {
   width: 60px;
   height: auto;
   margin-right: 10px;
@@ -351,14 +237,14 @@ footer a:hover {
   font-weight: 600;
   font-size: x-large;
 }
-.logo h2 .mexicogreen {
+.logo h2 .h2__mexicogreen {
   color: darkgreen;
 }
-.logo h2 .mexicowhite {
+.logo h2 .h2__mexicowhite {
   color: white;
 }
-.logo h2 .mexicored {
-  color: crimson;
+.logo h2 .h2__mexicored {
+  color: red;
 }
 
 .barranav {
@@ -392,6 +278,113 @@ footer a:hover {
   }
   nav a:hover {
     font-size: medium;
+  }
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.article__gridcontainer {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  background-color: crimson;
+  border-radius: 10px;
+  padding: 5px 0px;
+  width: auto;
+  color: white;
+}
+.article__gridcontainer div {
+  width: auto;
+}
+.article__gridcontainer p {
+  display: block;
+  text-align: justify;
+  margin: 5px 10px;
+}
+.article__gridcontainer iframe {
+  display: block;
+  margin: 0 auto;
+  width: 72vw;
+  height: 27vh;
+  border-radius: 5px;
+  transition: width 0.3s, height 0.3s, box-shadow 0.3s;
+}
+.article__gridcontainer iframehover {
+  width: 75vw;
+  height: 30vh;
+  box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+}
+
+.article__gridcontainer--noiframe {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  background-color: crimson;
+  border-radius: 10px;
+  padding: 5px 0px;
+  width: auto;
+  color: white;
+}
+.article__gridcontainer--noiframe p {
+  display: block;
+  text-align: justify;
+  margin: 5px 10px;
+}
+
+@media (min-width: 700px) {
+  .article__gridcontainer {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: none;
+  }
+  .article__gridcontainer iframe {
+    width: 52vw;
+  }
+  .article__gridcontainer iframe:hover {
+    width: 55vw;
+    box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+  }
+  .article__gridcontainer--noiframe {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: none;
+  }
+}
+.carruselmod {
+  /* min-width: 350px; */
+  max-width: 72vw;
+  min-height: 300px;
+  max-height: auto;
+  margin: 20px auto;
+  border-radius: 5px;
+  transition: max-width 0.3s, box-shadow 0.3s;
+}
+.carruselmod img {
+  border-radius: 5px;
+}
+.carruselmod div div {
+  margin: 0 auto;
+}
+.carruselmod:hover {
+  max-width: 75vw;
+  box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+}
+
+@media (min-width: 700px) {
+  .carruselmod {
+    max-width: 52vw;
+  }
+  .carruselmod:hover {
+    max-width: 55vw;
+    box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
   }
 }
 .mainfondo {

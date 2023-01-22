@@ -18,8 +18,8 @@
         <div>
             <div class="logo">
                 <!-- Logo de la pagina hasta arriba a la derecha -->
-                <a href=""><img class="escudo" src="./media/Escudo_de_Armas_de_México.png" alt=""></a>
-                <h2>Mi <span class="mexicogreen">Mé</span><span class="mexicowhite">xi</span><span class="mexicored">co</span> Mágico</h2>
+                <a href=""><img class="logo__escudo" src="./media/Escudo_de_Armas_de_México.png" alt=""></a>
+                <h2>Mi <span class="h2__mexicogreen">Mé</span><span class="h2__mexicowhite">xi</span><span class="h2__mexicored">co</span> Mágico</h2>
             </div>
             <!-- Bloque de navegacion -->
             <nav class="barranav">
@@ -66,7 +66,7 @@
     <footer>
         <div class="containermedfooter">        
             <!-- Bloque del pie de pagina con enlaces a redes sociales -->
-            <div data-aos="flip-left" class="footcontain stylegreenflgfooter">
+            <div data-aos="flip-left" class="footcontain containermedfooter__redes">
                 <h2>Redes sociales</h2>
                 <ul>
                     <li><img src="./media/facelogo.png" alt=""> <a href="#">Facebook</a></li>
@@ -76,7 +76,7 @@
                 </ul>
             </div>
             <!-- Bloque del pie de pagina con un enlace a un "documento de aviso de privacidad" -->
-            <div data-aos="flip-right" class="footcontain stylewhiteflgfooter">
+            <div data-aos="flip-right" class="footcontain containermedfooter__info">
                 <h2>Información</h2>
                 <a href="#">Aviso de privacidad</a>
             </div>
@@ -92,32 +92,32 @@
                             <!-- Bloque del formulario que contiene el input de tipo texto para ingresar el nombre del usuario -->
                             <label for="Nom">Nombre</label>
                             <div>
-                                <input class="textareastyle" type="text" name="Nombre" id="Nom">
+                                <input class="form__textareastyle" type="text" name="Nombre" id="Nom">
                             </div>                           
                             <!-- Bloque del formulario que contiene el input de tipo texto para ingresar el email del usuario -->
                             <label for="mail">Email</label>
                             <div>                               
-                                <input class="textareastyle" type="email" name="email" id="mail">
+                                <input class="form__textareastyle" type="email" name="email" id="mail">
                             </div>
                         </div>
                         <!-- Bloque del formulario que contiene un area de texto para ingresar un comentario -->
                         <div>
                             <label for="com">Comentarios</label>
                             <div>  
-                                <textarea class="textareastyle" name="comentario" id="com" cols="30" rows="10">Escribe tu comentario</textarea>
+                                <textarea class="form__textareastyle" name="comentario" id="com" cols="30" rows="10">Escribe tu comentario</textarea>
                             </div> 
                         </div>
                         <!-- Bloque de botones del formulario -->
                         <div>
                             <!-- Bloque del formulario que contiene un input de tipo submit para mandar los datos ingresados al form -->                  
-                            <div class="buttonformcontainer">
+                            <div class="form__button">
                                 <label for=""></label>
-                                <input class="buttonformstyle" type="submit" name="Enviar" id="sbm" value="Enviar">
+                                <input class="button__style" type="submit" name="Enviar" id="sbm" value="Enviar">
                             </div>
                             <!-- Bloque del formulario que contiene un input de tipo reset para borrar los datos ingresados al form -->
-                            <div class="buttonformcontainer">
+                            <div class="form__button">
                                 <label for=""></label>
-                                <input class="buttonformstyle" type="reset" name="Borrar" id="rst" value="Borrar">
+                                <input class="button__style" type="reset" name="Borrar" id="rst" value="Borrar">
                             </div>
                         </div>
                     </fieldset>
