@@ -312,7 +312,7 @@ h4 {
   border-radius: 5px;
   transition: width 0.3s, height 0.3s, box-shadow 0.3s;
 }
-.article__gridcontainer iframehover {
+.article__gridcontainer iframe:hover {
   width: 75vw;
   height: 30vh;
   box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
