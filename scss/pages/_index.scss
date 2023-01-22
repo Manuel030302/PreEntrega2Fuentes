@@ -1,0 +1,46 @@
+.mainfondo{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+    ,url("../media/piramide-teotihualcan-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+
+        h1{
+            text-align: center;
+            font-weight: 900;
+            font-size: 70px;
+            margin: 50px auto;
+            color: white;
+            text-shadow: 0px 0px 13px #000000;
+        }
+        .secmain{
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            background-color: rgba(6, 78, 18, 0.562);
+            color: cornsilk;
+            border-radius: 20px;
+            margin: 20px 15px;
+            padding: 20px;
+            box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+            -webkit-box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+            -moz-box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+
+            h2{
+                margin: 8px auto;
+
+                .secmain h2 a{
+                    color: rgb(235, 53, 90);
+                }
+                .secmain p{
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}
