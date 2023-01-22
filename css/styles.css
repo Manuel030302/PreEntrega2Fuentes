@@ -31,6 +31,15 @@ header div {
   justify-content: space-between;
 }
 
+@media (min-width: 640px) {
+  header {
+    background-color: #0AF6B3;
+  }
+  header div {
+    flex-direction: row;
+    padding: 5px;
+  }
+}
 .mainbackgrhidalgo {
   background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-dark.png");
   padding: 20px 0px;
@@ -61,14 +70,12 @@ header div {
   font-weight: 600;
 }
 .mainbackgrhidalgo .containermainpgs article {
-  position: relative;
-  padding-top: 30px;
-}
-.mainbackgrhidalgo .containermainpgs article {
   background-color: rgba(10, 246, 179, 0.5333333333);
   border-radius: 10px;
   margin: 5px 0px;
   padding: 10px;
+  position: relative;
+  padding-top: 30px;
 }
 .mainbackgrhidalgo .containermainpgs article .buttonlayoutarticlediv {
   display: block;
@@ -86,6 +93,7 @@ header div {
   transition: background-color 0.3s, box-shadow 0.3s;
 }
 .mainbackgrhidalgo .containermainpgs article .buttonlayoutarticlediv:hover {
+  color: red;
   background-color: white;
   box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
   -webkit-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
@@ -99,85 +107,6 @@ header div {
   color: red;
   margin-top: 40px;
 }
-.mainbackgrhidalgo .containermainpgs article .gridcontainerinterarticle {
-  display: grid;
-  grid-template-rows: 1fr 3fr;
-  background-color: crimson;
-  border-radius: 10px;
-  padding: 5px 0px;
-  width: auto;
-  color: white;
-}
-.mainbackgrhidalgo .containermainpgs article .gridcontainerinterarticle div {
-  width: auto;
-}
-.mainbackgrhidalgo .containermainpgs article .gridcontainerinterarticle h5 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-  font-weight: 600;
-}
-.mainbackgrhidalgo .containermainpgs article .gridcontainerinterarticle p {
-  display: block;
-  text-align: justify;
-  margin: 5px 10px;
-}
-.mainbackgrhidalgo .containermainpgs article .gridcontainerinterarticle iframe {
-  display: block;
-  margin: 0 auto;
-  width: 72vw;
-  height: 27vh;
-  border-radius: 5px;
-  transition: width 0.3s, height 0.3s, box-shadow 0.3s;
-}
-.mainbackgrhidalgo .containermainpgs article .gridcontainerinterarticle iframe:hover {
-  width: 75vw;
-  height: 30vh;
-  box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-  -webkit-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-  -moz-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-}
-.mainbackgrhidalgo .containermainpgs article .gridcontainerinterarticlewthoiframe {
-  display: grid;
-  grid-template-rows: 1fr 2fr;
-  background-color: crimson;
-  border-radius: 10px;
-  padding: 5px 0px;
-  width: auto;
-  color: white;
-}
-.mainbackgrhidalgo .containermainpgs article .gridcontainerinterarticlewthoiframe h5 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-  font-weight: 600;
-}
-.mainbackgrhidalgo .containermainpgs article .gridcontainerinterarticlewthoiframe p {
-  display: block;
-  text-align: justify;
-  margin: 5px 10px;
-}
-.mainbackgrhidalgo .containermainpgs article .carruselmod {
-  /* min-width: 350px; */
-  max-width: 72vw;
-  min-height: 300px;
-  max-height: auto;
-  margin: 20px auto;
-  border-radius: 5px;
-  transition: max-width 0.3s, box-shadow 0.3s;
-}
-.mainbackgrhidalgo .containermainpgs article .carruselmod img {
-  border-radius: 5px;
-}
-.mainbackgrhidalgo .containermainpgs article .carruselmod div div {
-  margin: 0 auto;
-}
-.mainbackgrhidalgo .containermainpgs article .carruselmod:hover {
-  max-width: 75vw;
-  box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-  -webkit-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-  -moz-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
-}
 .mainbackgrhidalgo .h1pstyle {
   display: block;
   background-color: rgba(10, 246, 179, 0.5098039216);
@@ -188,6 +117,124 @@ header div {
   text-align: justify;
 }
 
+.gridcontainerinterarticle {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  background-color: crimson;
+  border-radius: 10px;
+  padding: 5px 0px;
+  width: auto;
+  color: white;
+}
+.gridcontainerinterarticle div {
+  width: auto;
+}
+.gridcontainerinterarticle h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+.gridcontainerinterarticle p {
+  display: block;
+  text-align: justify;
+  margin: 5px 10px;
+}
+.gridcontainerinterarticle iframe {
+  display: block;
+  margin: 0 auto;
+  width: 72vw;
+  height: 27vh;
+  border-radius: 5px;
+  transition: width 0.3s, height 0.3s, box-shadow 0.3s;
+}
+.gridcontainerinterarticle iframehover {
+  width: 75vw;
+  height: 30vh;
+  box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+}
+
+.gridcontainerinterarticlewthoiframe {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  background-color: crimson;
+  border-radius: 10px;
+  padding: 5px 0px;
+  width: auto;
+  color: white;
+}
+.gridcontainerinterarticlewthoiframe h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+.gridcontainerinterarticlewthoiframe p {
+  display: block;
+  text-align: justify;
+  margin: 5px 10px;
+}
+
+.carruselmod {
+  /* min-width: 350px; */
+  max-width: 72vw;
+  min-height: 300px;
+  max-height: auto;
+  margin: 20px auto;
+  border-radius: 5px;
+  transition: max-width 0.3s, box-shadow 0.3s;
+}
+.carruselmod img {
+  border-radius: 5px;
+}
+.carruselmod div div {
+  margin: 0 auto;
+}
+.carruselmod:hover {
+  max-width: 75vw;
+  box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+}
+
+@media (min-width: 700px) {
+  .gridcontainerinterarticle {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: none;
+  }
+  .gridcontainerinterarticle iframe {
+    width: 52vw;
+  }
+  .gridcontainerinterarticle iframe:hover {
+    width: 55vw;
+    box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+  }
+  .gridcontainerinterarticlewthoiframe {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: none;
+  }
+  .carruselmod {
+    max-width: 52vw;
+  }
+  .carruselmod:hover {
+    max-width: 55vw;
+    box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 1px 7px 33px 4px rgba(0, 0, 0, 0.9);
+  }
+}
+@media (max-width: 460px) {
+  h1 {
+    font-size: 50px;
+  }
+  .movileviewmedia {
+    height: 550px;
+  }
+}
 footer {
   background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-dark.png");
 }
@@ -277,6 +324,20 @@ footer a:hover {
   font-size: large;
 }
 
+@media (min-width: 660px) {
+  .containermedfooter {
+    display: grid;
+    grid-template-columns: 3fr 2fr 5fr;
+  }
+  .stylegreenflgfooter h2 {
+    margin-bottom: 10px;
+    max-width: 30%;
+  }
+  .stylewhiteflgfooter h2 {
+    margin-bottom: 10px;
+    max-width: 20%;
+  }
+}
 .logo {
   display: flex;
   align-items: center;
@@ -289,6 +350,15 @@ footer a:hover {
 .logo h2 {
   font-weight: 600;
   font-size: x-large;
+}
+.logo h2 .mexicogreen {
+  color: darkgreen;
+}
+.logo h2 .mexicowhite {
+  color: white;
+}
+.logo h2 .mexicored {
+  color: crimson;
 }
 
 .barranav {
@@ -316,6 +386,14 @@ footer a:hover {
   font-size: large;
 }
 
+@media (max-width: 460px) {
+  nav a {
+    font-size: small;
+  }
+  nav a:hover {
+    font-size: medium;
+  }
+}
 .mainfondo {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/piramide-teotihualcan-scaled.jpg");
   background-repeat: no-repeat;
@@ -351,11 +429,28 @@ footer a:hover {
 .mainfondo .container .secmain h2 {
   margin: 8px auto;
 }
-.mainfondo .container .secmain h2 .secmain h2 a {
+.mainfondo .container .secmain h2 a {
   color: rgb(235, 53, 90);
 }
-.mainfondo .container .secmain h2 .secmain p {
+.mainfondo .container .secmain p {
   text-align: justify;
+}
+
+@media (min-width: 660px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 3fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .container h1 {
+    grid-column: 1/3;
+  }
+  .container .secmain {
+    max-width: 80%;
+    max-height: 90%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

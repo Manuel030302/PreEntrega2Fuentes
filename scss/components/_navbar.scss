@@ -25,3 +25,13 @@
         }
     }
 }
+
+@media (max-width:460px){
+    nav a{
+        font-size: small;
+
+        &:hover{
+            font-size: medium;
+        }
+    }
+}

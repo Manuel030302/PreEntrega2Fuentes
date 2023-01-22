@@ -100,3 +100,18 @@ footer{
         }
     }
 }
+
+@media(min-width:660px){
+    .containermedfooter{
+        display: grid;
+        grid-template-columns: 3fr 2fr 5fr;
+    }
+    .stylegreenflgfooter h2{
+        margin-bottom: 10px;
+        max-width: 30%;
+    }
+    .stylewhiteflgfooter h2{
+        margin-bottom: 10px;
+        max-width: 20%;
+    }
+}

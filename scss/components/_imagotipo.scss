@@ -7,9 +7,19 @@
         height: auto;
         margin-right: 10px;
     }
-
     h2{
         font-weight: 600;
         font-size: x-large;
+
+        .mexicogreen{
+            color: darkgreen;
+        }
+        .mexicowhite{
+            color: white;
+        }
+        .mexicored{
+            color: crimson;
+        }
     }
+
 }

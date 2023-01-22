@@ -9,3 +9,14 @@ header{
         justify-content: space-between;
     }
 }
+
+@media (min-width:640px){
+    header{
+        background-color: #0AF6B3;
+
+        div{
+            flex-direction: row;
+            padding: 5px;
+        }
+    }
+}
