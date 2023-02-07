@@ -1,0 +1,13 @@
+.section__atractivos{
+    margin-bottom: 30px;
+    
+    >div{
+        background-color: $color__quinario;
+        padding: 10px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+    article{
+        margin-bottom: 15px;
+    }
+}

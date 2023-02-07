@@ -1,0 +1,23 @@
+.section__arte{
+    margin-bottom: 30px;
+}
+.section__gastronomia{
+    margin-bottom: 30px;
+    
+    >div{
+        background-color: $color__quinario;
+        padding: 10px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+}
+.section__leyendas{
+    margin-bottom: 30px;
+
+    >div{
+        background-color: $color__quinario;
+        padding: 10px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+}

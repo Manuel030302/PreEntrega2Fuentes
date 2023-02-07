@@ -1,0 +1,53 @@
+.tarjeta3{
+    display: flex;
+    flex-direction: row;
+    background-color: $color__cuaternario;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 250px;
+
+    div:first-child{
+        width: 30%;
+        max-height: 250px;
+        border-radius: 10px;
+        box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+        -webkit-box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+        -moz-box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='140' height='600' preserveAspectRatio='none' viewBox='0 0 140 600'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1312%26quot%3b)' fill='none'%3e%3crect width='140' height='600' x='0' y='0' fill='url(%23SvgjsLinearGradient1313)'%3e%3c/rect%3e%3cpath d='M23.319777387340345 315.15271674695373L30.565387392748192 286.0921622854273-5.740777074186035 307.9071067415459z' fill='rgba(245%2c 249%2c 253%2c 0.74)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-1.4050287328141655 440.67704052196075L25.284235399842864 456.7482066178387 26.23468415264052 429.53091540029413z' fill='rgba(245%2c 249%2c 253%2c 0.74)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M64.22517224832399 38.38837222948486L49.85367135233554 62.30656630126052 73.7718654241112 76.67806719724896 88.14336632009964 52.759873125473305z' fill='rgba(245%2c 249%2c 253%2c 0.74)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M69.67596976445515 408.1395264427612L110.41075779253492 407.4284980728939 109.69972942266762 366.6937100448141 68.96494139458784 367.40473841468145z' fill='rgba(245%2c 249%2c 253%2c 0.74)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M13.456640965795389 102.05516832923871L18.756101168591496 115.8607341523228 36.81471980181961 101.0087609365866z' fill='rgba(245%2c 249%2c 253%2c 0.74)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M87.299%2c608.73C99.942%2c608.955%2c110.924%2c600.99%2c117.418%2c590.14C124.115%2c578.952%2c126.473%2c565.185%2c120.207%2c553.751C113.719%2c541.912%2c100.799%2c535.212%2c87.299%2c535.18C73.742%2c535.148%2c60.425%2c541.594%2c54.122%2c553.596C48.169%2c564.931%2c52.38%2c578.13%2c58.981%2c589.1C65.328%2c599.648%2c74.991%2c608.511%2c87.299%2c608.73' fill='rgba(245%2c 249%2c 253%2c 0.74)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1312'%3e%3crect width='140' height='600' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='182.14%25' y1='80.83%25' x2='-82.14%25' y2='19.17%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1313'%3e%3cstop stop-color='rgba(48%2c 92%2c 137%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 158%2c 5%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+
+        img{
+            visibility: hidden;
+            border-radius: 10px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    div:last-child{
+        padding: 10px;
+        width: 70%;
+        border-radius: 0px 10px 10px 0px;
+        
+        h3{
+            background-color: $color__secundario;
+            padding: 10px;
+            border-radius: 10px;
+            font-weight: 600;
+            text-align: center;
+            color: $color__terciario;
+        }
+        iframe{
+            width: 100%;
+            height: fit-content;
+        }
+    }
+}
+@media(min-width:500px){
+    .tarjeta3{
+        > div:first-child{
+            img{
+                visibility: visible;
+            }
+        }
+    }
+}

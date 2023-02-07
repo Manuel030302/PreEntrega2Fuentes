@@ -1,0 +1,19 @@
+.ecosistemas{
+    margin-bottom: 30px;
+
+    > div{
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }    
+}
+.biodiversidad{
+    margin-bottom: 30px;
+
+    article{
+        margin-bottom: 15px;
+    }
+}

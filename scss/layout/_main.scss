@@ -1,88 +1,29 @@
-.mainbackground{
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-dark.png");
-    padding: 20px 0px;
-
-    h1{
-        text-align: center;
-        font-weight: 900;
-        font-size: 70px;
-        margin: 50px auto;
-        color: $color__secundario;
-        text-shadow: 0px 0px 13px #000000;
-    }
-    .mainbackground__container{
+main{
+    > div{
+        background-color: $color__quinario;
+        padding: 10px;
+        margin-bottom: 30px;
         border-radius: 10px;
-        margin: 20px 15px;
-        padding: 20px;
 
-        h2{
-            color: rgb(0, 0, 0);
-            margin-bottom: 10px;
-            padding: 10px;
-            border-radius: 10px;
-            background-color: $color__primario;
-            font-weight: 600;
-        }       
-        article{
-            background-color: #0af6b388;
-            border-radius: 10px;
-            margin: 5px 0px;
-            padding: 10px;
-            position: relative;
-            padding-top: 30px;
-
-            .article__button{
-                display: block;
-                color: #000000;
-                background-color: transparent;
-                width: 26px;
-                height: 26px;
-                margin-bottom: 5px;
-                border-radius: 15px;
-                border: solid 0px;
-                text-align: center;
-                font-size: 20px;
-                position: absolute;
-                right: 10px;
-                transition: background-color 0.3s, box-shadow 0.3s;
-
-                &:hover{
-                    color: $color__terciario;
-                    background-color: $color__secundario;
-                    box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
-                    -webkit-box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
-                    -moz-box-shadow: 1px 7px 33px 4px rgba(0,0,0,0.9);
-                }
-            }
-            h3{
-                padding: 10px;
-                border-radius: 10px;
-                background-color: $color__secundario;
-                font-weight: 600;
-                color: $color__terciario;
-                margin-top: 40px;
-            }            
-        }       
-    }    
-    .mainbackground__paragraph{
-        display: block;
-        background-color: #0af6b382;
-        margin: auto 35px;
-
-        .paragraph__style{
-            color: $color__secundario;
-            text-align: justify;
+        p{
+            margin: auto;
         }
     }
-    
-    
-}
-
-@media (max-width:460px){
-    h1{
-        font-size: 50px;
+    h2{
+        color: rgb(0, 0, 0);
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: $color__primario;
+        font-weight: 600;
     }
-    .movileviewmedia{
-        height: 550px;
-    } 
+    h3{
+        background-color: $color__secundario;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: 600;
+        text-align: center;
+        color: $color__terciario;
+        width: 100%;
+    }
 }

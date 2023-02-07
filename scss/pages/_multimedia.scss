@@ -1,0 +1,29 @@
+.media__galeria{
+    margin-bottom: 30px;    
+}
+.section__musica{
+    margin-bottom: 30px;
+
+    article{
+        margin-bottom: 10px;
+    }
+}
+.section__video{
+    margin-bottom: 30px;
+
+    article{
+        margin-bottom: 10px;
+
+        div{
+
+            iframe{
+                width: 100%;
+                border-radius: 10px;
+
+                &:hover{
+                    border: 2px solid $color__secundario;
+                }
+            }
+        }
+    }
+}
