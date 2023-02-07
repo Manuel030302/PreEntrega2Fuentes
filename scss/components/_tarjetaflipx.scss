@@ -4,9 +4,11 @@
     margin-bottom: 10px;
     height: 250px;
 
+    #real-del-monte{background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/real-del-monte-movile.jpg");}
+    #cuetzalan{background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/cuetzalan-movile.jpg");}
+    #san-miguel-de-allende{background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/san-miguel-de-allende-movile.jpg");}
     > div:first-child{
         display: flex;
-        background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/mexico-prehispanico-comprimido-movile.jpg");
         position: absolute;
         width: 91.723%;
         height: 250px;
@@ -63,9 +65,16 @@
         margin-bottom: 10px;
         height: 400px;
 
+        #yoloxochitl{background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/yoloxochitl-movile.jpeg");}
+        #biznaga{background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/biznaga-movile.jpg");}
+        #maiz{background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/maiz-movile.jpg");}
+        #Guayabo{background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/guayabo-movile.jpg");}
+        #aguila-real{background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/aguila-real-movile.jpg");}
+        #quetzal{background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/quetzal-movile.jpg");}
+        #oso-negro{background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/oso-negro-movile.jpg");}
+        #guajolote{background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/guajolote-movile.jpg");}
         > div:first-child{
             display: flex;
-            background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/mexico-prehispanico-comprimido-movile.jpg");
             position: absolute;
             width: 91.723%;
             height: 400px;
@@ -113,6 +122,25 @@
             }
             > div:last-child{
                 transform: perspective(600px) rotateX(360deg);
+            }
+        }
+    }
+}
+@media(min-width:900px){
+    .tarjetahover{
+        > div:first-child{
+            width: 30%;
+        }
+        > div:last-child{
+            width: 30%;
+        }
+
+        &--y{
+            > div:first-child{
+                width: 45%;
+            }
+            > div:last-child{
+                width: 45%;
             }
         }
     }

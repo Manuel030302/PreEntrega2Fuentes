@@ -37,6 +37,7 @@ p {
 
 h3 {
   text-align: center;
+  margin-bottom: 10px;
 }
 
 h4 {
@@ -136,15 +137,15 @@ footer a:hover {
 }
 
 @media (min-width: 660px) {
-  .containermedfooter {
+  .footer__container {
     display: grid;
     grid-template-columns: 3fr 2fr 5fr;
   }
-  .containermedfooter__redes h2 {
+  .footer__container .redes h2 {
     margin-bottom: 10px;
     max-width: 30%;
   }
-  .containermedfooter__info h2 {
+  .footer__container .info h2 {
     margin-bottom: 10px;
     max-width: 20%;
   }
@@ -293,15 +294,39 @@ form fieldset div .form__button .button__style:hover {
   border-radius: 10px;
 }
 
+@media (min-width: 900px) {
+  .section__historia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+  }
+  .section__historia h2 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .section__historia article:nth-child(5) {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+}
 .tarjetahover {
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
   height: 250px;
 }
+.tarjetahover #real-del-monte {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/real-del-monte-movile.jpg");
+}
+.tarjetahover #cuetzalan {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/cuetzalan-movile.jpg");
+}
+.tarjetahover #san-miguel-de-allende {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/san-miguel-de-allende-movile.jpg");
+}
 .tarjetahover > div:first-child {
   display: flex;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/mexico-prehispanico-comprimido-movile.jpg");
   position: absolute;
   width: 91.723%;
   height: 250px;
@@ -351,9 +376,32 @@ form fieldset div .form__button .button__style:hover {
   margin-bottom: 10px;
   height: 400px;
 }
+.tarjetahover--y #yoloxochitl {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/yoloxochitl-movile.jpeg");
+}
+.tarjetahover--y #biznaga {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/biznaga-movile.jpg");
+}
+.tarjetahover--y #maiz {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/maiz-movile.jpg");
+}
+.tarjetahover--y #Guayabo {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/guayabo-movile.jpg");
+}
+.tarjetahover--y #aguila-real {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/aguila-real-movile.jpg");
+}
+.tarjetahover--y #quetzal {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/quetzal-movile.jpg");
+}
+.tarjetahover--y #oso-negro {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/oso-negro-movile.jpg");
+}
+.tarjetahover--y #guajolote {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/guajolote-movile.jpg");
+}
 .tarjetahover--y > div:first-child {
   display: flex;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/mexico-prehispanico-comprimido-movile.jpg");
   position: absolute;
   width: 91.723%;
   height: 400px;
@@ -398,6 +446,20 @@ form fieldset div .form__button .button__style:hover {
   transform: perspective(600px) rotateX(360deg);
 }
 
+@media (min-width: 900px) {
+  .tarjetahover > div:first-child {
+    width: 30%;
+  }
+  .tarjetahover > div:last-child {
+    width: 30%;
+  }
+  .tarjetahover--y > div:first-child {
+    width: 45%;
+  }
+  .tarjetahover--y > div:last-child {
+    width: 45%;
+  }
+}
 .tarjeta {
   display: flex;
   flex-direction: row;
@@ -438,6 +500,7 @@ form fieldset div .form__button .button__style:hover {
 }
 .tarjeta > div:last-child ul li {
   list-style-type: disc;
+  margin-left: 10px;
 }
 .tarjeta--invertida {
   display: flex;
@@ -490,9 +553,20 @@ form fieldset div .form__button .button__style:hover {
   height: 300px;
   margin-bottom: 10px;
 }
+.tarjetahover2 #pozole {
+  background-image: linear-gradient(transparent 60%, rgb(0, 0, 0)), url("../media/el-pozole.jpeg");
+}
+.tarjetahover2 #chile {
+  background-image: linear-gradient(transparent 60%, rgb(0, 0, 0)), url("../media/chiles-en-nogada.jpeg");
+}
+.tarjetahover2 #mole {
+  background-image: linear-gradient(transparent 60%, rgb(0, 0, 0)), url("../media/el-mole.jpg");
+}
+.tarjetahover2 #tlayudas {
+  background-image: linear-gradient(transparent 60%, rgb(0, 0, 0)), url("../media/tlayudas.jpeg");
+}
 .tarjetahover2 div:first-child {
   position: relative;
-  background-image: linear-gradient(transparent 60%, rgb(0, 0, 0)), url("../media/mexico-prehispanico-comprimido-movile.jpg");
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -563,9 +637,20 @@ form fieldset div .form__button .button__style:hover {
   height: 300px;
   margin-bottom: 10px;
 }
+.tarjetahover2--invertida #pozole {
+  background-image: linear-gradient(transparent 60%, rgb(0, 0, 0)), url("../media/el-pozole.jpeg");
+}
+.tarjetahover2--invertida #chile {
+  background-image: linear-gradient(transparent 60%, rgb(0, 0, 0)), url("../media/chiles-en-nogada.jpeg");
+}
+.tarjetahover2--invertida #mole {
+  background-image: linear-gradient(transparent 60%, rgb(0, 0, 0)), url("../media/el-mole.jpg");
+}
+.tarjetahover2--invertida #tlayudas {
+  background-image: linear-gradient(transparent 60%, rgb(0, 0, 0)), url("../media/tlayudas.jpeg");
+}
 .tarjetahover2--invertida div:first-child {
   position: relative;
-  background-image: linear-gradient(transparent 60%, rgb(0, 0, 0)), url("../media/mexico-prehispanico-comprimido-movile.jpg");
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -680,7 +765,7 @@ form fieldset div .form__button .button__style:hover {
 }
 .galeria {
   display: grid;
-  grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-auto-rows: 150px;
   grid-auto-flow: dense;
   gap: 10px;
@@ -711,18 +796,17 @@ form fieldset div .form__button .button__style:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
-.galeria div h3 {
-  position: absolute;
-  bottom: 0;
-  background: linear-gradient(transparent 20%, rgb(0, 0, 0));
-  color: white;
-  font-size: 100%;
-  width: 100%;
-  margin: auto;
-  padding: 10px;
+.galeria div:hover {
+  transform: scale(1.05);
 }
 
+@media (max-width: 338px) {
+  .galeria {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+}
 .index__main {
   background-image: url("https://img.freepik.com/premium-photo/feather-texture-background-with-orange-light_32525-101.jpg?w=900");
   background-repeat: no-repeat;
@@ -783,6 +867,27 @@ form fieldset div .form__button .button__style:hover {
   margin-bottom: 15px;
 }
 
+@media (min-width: 500px) {
+  .tarjeta3 > div:first-child img {
+    visibility: visible;
+  }
+  .tarjeta3:nth-child(5) {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+}
+@media (min-width: 900px) {
+  .section__atractivos .atractivos__grid {
+    display: grid;
+    grid-template-columns: 1fr 1 fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+  }
+  .section__atractivos .atractivos__grid div:first-child {
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+}
 .section__arte {
   margin-bottom: 30px;
 }
@@ -807,6 +912,26 @@ form fieldset div .form__button .button__style:hover {
   border-radius: 10px;
 }
 
+@media (min-width: 900px) {
+  .section__leyendas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+  }
+  .section__leyendas h2 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .section__leyendas > div {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  .section__leyendas article:nth-child(5) {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+}
 .media__galeria {
   margin-bottom: 30px;
 }
@@ -832,6 +957,38 @@ form fieldset div .form__button .button__style:hover {
   border: 2px solid white;
 }
 
+@media (min-width: 900px) {
+  .section__musica {
+    margin-bottom: 30px;
+  }
+  .section__musica article {
+    margin-bottom: 10px;
+  }
+  .section__musica article:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+  }
+  .section__musica article:nth-child(2) h3 {
+    grid-column: 1/3;
+  }
+  .section__musica article:nth-child(3) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+  }
+  .section__musica article:nth-child(3) h3 {
+    grid-column: 1/4;
+  }
+  .section__video article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+  }
+}
 .ecosistemas {
   margin-bottom: 30px;
 }
@@ -846,6 +1003,36 @@ form fieldset div .form__button .button__style:hover {
 }
 .biodiversidad article {
   margin-bottom: 15px;
+}
+
+@media (min-width: 900px) {
+  .ecosistemas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+  }
+  .ecosistemas h2 {
+    grid-column: 1/3;
+  }
+  .biodiversidad article:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+  }
+  .biodiversidad article:nth-child(2) div:first-child {
+    grid-column: 1/3;
+  }
+  .biodiversidad article:nth-child(3) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+  }
+  .biodiversidad article:nth-child(3) div:first-child {
+    grid-column: 1/3;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

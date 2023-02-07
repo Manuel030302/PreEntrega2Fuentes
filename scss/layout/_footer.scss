@@ -50,16 +50,17 @@ footer{
 }
 
 @media(min-width:660px){
-    .containermedfooter{
+    .footer__container{
         display: grid;
         grid-template-columns: 3fr 2fr 5fr;
-    }
-    .containermedfooter__redes h2{
-        margin-bottom: 10px;
-        max-width: 30%;
-    }
-    .containermedfooter__info h2{
-        margin-bottom: 10px;
-        max-width: 20%;
+
+        .redes h2{
+            margin-bottom: 10px;
+            max-width: 30%;
+        }
+        .info h2{
+            margin-bottom: 10px;
+            max-width: 20%;
+        }
     }
 }
