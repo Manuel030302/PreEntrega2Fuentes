@@ -85,12 +85,16 @@
 }
 @media(min-width:500px){
     .tarjeta{
+        height: 30vh;
+
         > div:first-child{
             img{
                 visibility: visible;
             }
         }
         &--invertida{
+            height: 30vh;
+            
             > div:last-child{
                 img{
                     visibility: visible;

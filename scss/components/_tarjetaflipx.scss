@@ -126,22 +126,3 @@
         }
     }
 }
-@media(min-width:900px){
-    .tarjetahover{
-        > div:first-child{
-            width: 30%;
-        }
-        > div:last-child{
-            width: 30%;
-        }
-
-        &--y{
-            > div:first-child{
-                width: 45%;
-            }
-            > div:last-child{
-                width: 45%;
-            }
-        }
-    }
-}
