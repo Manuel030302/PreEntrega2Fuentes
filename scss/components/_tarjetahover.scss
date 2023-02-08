@@ -9,9 +9,9 @@
     #chile{background-image: linear-gradient(transparent 60%, rgb(0, 0, 0)), url("../media/chiles-en-nogada.jpeg");}
     #mole{background-image: linear-gradient(transparent 60%, rgb(0, 0, 0)), url("../media/el-mole.jpg");}
     #tlayudas{background-image: linear-gradient(transparent 60%, rgb(0, 0, 0)), url("../media/tlayudas.jpeg");}
+    
     div:first-child{
         position: relative;
-        // background-image: linear-gradient(transparent 60%, rgb(0, 0, 0)), url("../media/aguila-real-movile.jpg");
         background-position: center;
         background-size: cover;
         width: 50%;
@@ -101,7 +101,6 @@
 
         div:first-child{
             position: relative;
-            // background-image: linear-gradient(transparent 60%, rgb(0, 0, 0)), url("../media/mexico-prehispanico-comprimido-movile.jpg");
             background-position: center;
             background-size: cover;
             width: 50%;

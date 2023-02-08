@@ -10,7 +10,7 @@
     > div:first-child{
         display: flex;
         position: absolute;
-        width: 91.723%;
+        width: 100%;
         height: 250px;
         border-radius: 10px;
         align-items: center;
@@ -31,7 +31,7 @@
     > div:last-child{
         background-color: $color__cuaternario;
         position: absolute;
-        width: 91.723%;
+        width: 100%;
         height: 250px;
         padding: 10px;
         border-radius: 10px;
@@ -63,7 +63,7 @@
         display: flex;
         flex-direction: row;
         margin-bottom: 10px;
-        height: 400px;
+        height: 250px;
 
         #yoloxochitl{background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/yoloxochitl-movile.jpeg");}
         #biznaga{background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../media/biznaga-movile.jpg");}
@@ -76,8 +76,8 @@
         > div:first-child{
             display: flex;
             position: absolute;
-            width: 91.723%;
-            height: 400px;
+            width: 100%;
+            height: 250px;
             border-radius: 10px;
             align-items: center;
             justify-content: center;
@@ -97,8 +97,8 @@
         > div:last-child{
             background-color: $color__cuaternario;
             position: absolute;
-            width: 91.723%;
-            height: 400px;
+            width: 100%;
+            height: 250px;
             padding: 10px;
             border-radius: 10px;
             backface-visibility: hidden;
